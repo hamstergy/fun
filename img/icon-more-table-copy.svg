@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="4px" viewBox="0 0 18 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>25B154FB-D753-4FA6-AFBC-BD3D017635FA</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="New-screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="My-Trips:-main2" transform="translate(-1280.000000, -539.000000)" fill="#4A5069" fill-rule="nonzero">
+            <g id="MainStats_tables" transform="translate(25.000000, 139.000000)">
+                <g id="TableRows" transform="translate(11.000000, 384.000000)">
+                    <g id="row-1">
+                        <g id="controls" transform="translate(1117.000000, 2.000000)">
+                            <g id="btn-more" transform="translate(120.000000, 0.000000)">
+                                <path d="M13.9722449,16 C13.9722449,14.8949275 14.8795918,14 16,14 C17.1204082,14 18.0277551,14.8949275 18.0277551,16 C18.0277551,17.1050725 17.1204082,18 16,18 C14.8795918,18 13.9722449,17.1050725 13.9722449,16 Z M22.9722449,14 C21.8518367,14 20.9444898,14.8949275 20.9444898,16 C20.9444898,17.1050725 21.8518367,18 22.9722449,18 C24.0926531,18 25,17.1050725 25,16 C25,14.8949275 24.0926531,14 22.9722449,14 Z M9.0277551,14 C7.90734694,14 7,14.8949275 7,16 C7,17.1050725 7.90734694,18 9.0277551,18 C10.1481633,18 11.0555102,17.1050725 11.0555102,16 C11.0555102,14.8949275 10.1481633,14 9.0277551,14 Z" id="icon-more-table-copy"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
