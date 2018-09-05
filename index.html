@@ -2,10 +2,15 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="scss/style.css" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/text.css" />
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
+    <script src="/assets/js/svg4everybody.min.js"></script>
+    <script>
+        svg4everybody();
+    </script>
 
 </head>
 
@@ -25,39 +30,67 @@
                 <th class="table__cell table__cell--header"></th>
             </tr>
             <tr class="table__row">
-                <td class="table__cell" data-th=""><div class="circle"></div></td>
-                <td class="table__cell" data-th="№ заявки:"><a href="#"><span class="text text__weight--medium">№1397</span></a><br><span class="text text__size--small text__light--one">Air BSP</span></td>
-                <td class="table__cell" data-th="Дата заявки:"><span class="text">30.03.18<br>11:34</td></span></td>
-                <td class="table__cell" data-th="Пассажир:"><span class="text text__border"><a href="#">Коробейников Сергей</a></span></td>
-                <td class="table__cell" data-th="Дата и маршрут:"><span class="text text__border"><a href="#">Алматы</a></span><br><span class="text text__weight--bold">06.07.18, 19:55 — 07.07.18, 05:45</span></td>
-                <td class="table__cell" data-th="Бронь и билет:"><span class="text text__weight--medium">Air Astana</span><br><span class="text">27735908<br>72231101875143</span></td>
-                <td class="table__cell" data-th="Сумма и оплата:"><span class="text text__weight--medium text__bgcolor--yellow text__size--small">115 300 <span class="text text__tenge">₸</span></span><br><span class="text text__light--two text__size--small">Ожидает оплаты</span></td>
-                <td class="table__cell" data-th="Статус:"><span class="text text__button--green">ОФОРМЛЕН</span><br><span class="text text__size--small">Айтуаров А. А.</span></td>   
-                <td class="table__cell">
-                    <div class="button button_icon--simple button_icon--border"><img src="img/icon-document-table-copy.svg" class="icon-document-table-copy"></div>
-                    <div class="button button_icon--simple button_icon--border"><img src="img/icon-document-table-copy.svg" class="icon-document-table-copy"></div>
-                    <div class="button button_icon--simple button_icon--border"><img src="img/icon-mail-table-copy.svg" class="icon-mail-table-copy"></div>
-                    <div class="button button_icon--simple"><img src="img/icon-more-table-copy.svg" class="icon-more-table-copy"></div>
+                <td class="table__cell" data-th="">
+                    <div class="circle circle--active"></div>
                 </td>
-                
+                <td class="table__cell" data-th="№ заявки:"><a href="#"><span class="text text__weight--medium">№1397</span></a><br><span
+                        class="text text__size--small text__light--one">Air BSP</span></td>
+                <td class="table__cell" data-th="Дата заявки:"><span class="text">30.03.18<br>11:34</td></span></td>
+                <td class="table__cell" data-th="Пассажир:"><span class="text text__underline"><a href="#">Коробейников Сергей</a></span></td>
+                <td class="table__cell" data-th="Дата и маршрут:"><a class="text text__underline" href="#">Алматы</a><br>
+                    <div style="width:120px">
+                        <div style="float:left;"><span class="text text__weight--bold">06.07.18</span><br><span class="text text__light--two">19:55</span></div>
+                        <div style="float:left;"><span class="text text__weight--bold">&nbsp;-&nbsp;</span></div>
+                        <div style="float:left;"><span class="text text__weight--bold">07.07.18</span><br><span class="text text__light--two">05:45</span></div>
+                    </div>
+                </td>
+                <td class="table__cell" data-th="Бронь и билет:"><span class="text text__weight--medium">Air Astana</span><br><span
+                        class="text">27735908<br>72231101875143</span></td>
+                <td class="table__cell" data-th="Сумма и оплата:"><span class="text text__weight--medium text__bgcolor--yellow text__size--small">115
+                        300 <span class="text text__tenge">₸</span></span><br><span class="text text__light--two text__size--small">Ожидает
+                        оплаты
+                    </span></td>
+                <td class="table__cell" data-th="Статус:"><span class="text text__button--green">ОФОРМЛЕН</span><br><span
+                        class="text text__size--small">Айтуаров А. А.</span></td>
+                <td class="table__cell">
+                    <div class="button button_icon--simple button_icon--border"><svg class="svg-icon"><use xlink:href='/assets/img/sprite.svg#icon-table-copy'></use></svg></div>
+                    <div class="button button_icon--simple button_icon--border"><svg class="svg-icon"><use xlink:href='/assets/img/sprite.svg#icon-table-copy'></use></svg></div>
+                    <div class="button button_icon--simple button_icon--border"><svg class="svg-icon"><use xlink:href='/assets/img/sprite.svg#icon-mail'></use></svg></div>
+                    <div class="button button_icon--simple"><svg class="icon-more-table" style="height:4px;"><use xlink:href='/assets/img/sprite.svg#icon-more-table'></use></svg></div>
+                </td>
+
             </tr>
-     
+
             <tr class="table__row">
-                    <td class="table__cell" data-th=""><div class="circle"></div></td>
-                    <td class="table__cell" data-th="№ заявки:"><a href="#"><span class="text text__weight--medium">№1397</span></a><br><span class="text text__size--small text__light--one">Air BSP</span></td>
-                    <td class="table__cell" data-th="Дата заявки:"><span class="text">30.03.18<br>11:34</td></span></td>
-                    <td class="table__cell" data-th="Пассажир:"><span class="text text__border"><a href="#">Коробейников Сергей</a></span></td>
-                    <td class="table__cell" data-th="Дата и маршрут:"><span class="text text__border"><a href="#">Алматы</a></span><br><span class="text text__weight--bold">06.07.18, 19:55 — 07.07.18, 05:45</span></td>
-                    <td class="table__cell" data-th="Бронь и билет:"><span class="text text__weight--medium">Air Astana</span><br><span class="text">27735908<br>72231101875143</span></td>
-                    <td class="table__cell" data-th="Сумма и оплата:"><span class="text text__weight--medium text__bgcolor--yellow text__size--small">115 300 <span class="text text__tenge">₸</span></span><br><span class="text text__light--two text__size--small">Ожидает оплаты</span></td>
-                    <td class="table__cell" data-th="Статус:"><span class="text text__button--green">ОФОРМЛЕН</span><br><span class="text text__size--small">Айтуаров А. А.</span></td>   
-                    <td class="table__cell">
-                        <div class="button button_icon--simple button_icon--border"><img src="img/icon-document-table-copy.svg" class="icon-document-table-copy"></div>
-                        <div class="button button_icon--simple button_icon--border"><img src="img/icon-document-table-copy.svg" class="icon-document-table-copy"></div>
-                        <div class="button button_icon--simple button_icon--border"><img src="img/icon-mail-table-copy.svg" class="icon-mail-table-copy"></div>
-                        <div class="button button_icon--simple"><img src="img/icon-more-table-copy.svg" class="icon-more-table-copy"></div>
-                    </td>
-                </tr>
+                <td class="table__cell" data-th="">
+                    <div class="circle"></div>
+                </td>
+                <td class="table__cell" data-th="№ заявки:"><a href="#"><span class="text text__weight--medium">№1397</span></a><br><span
+                        class="text text__size--small text__light--one">offline, Air BSP</span></td>
+                <td class="table__cell" data-th="Дата заявки:"><span class="text">30.03.18<br>11:34</td></span></td>
+                <td class="table__cell" data-th="Пассажир:"><span class="text text__underline"><a href="#">Коробейников Сергей</a></span></td>
+                <td class="table__cell" data-th="Дата и маршрут:">
+                        <div class="text"><a class="text text__underline text__color--red" href="#">Петропавловск</a></div>
+                    <div><span class="text text__button--red">ЗАДЕРЖАН РЕЙС</span><br>
+                        <div style="width:120px"> <div style="float:left;"><span class="text text__weight--bold">06.07.18</span><br><span class="text text__light--two">19:55</span></div>
+                        <div style="float:left;"><span class="text text__weight--bold">&nbsp;-&nbsp;</span></div>
+                        <div style="float:left;"><span class="text text__weight--bold">07.07.18</span><br><span class="text text__light--two">05:45</span></div></div></div>
+                </td>
+                <td class="table__cell" data-th="Бронь и билет:"><span class="text text__weight--medium">Air Astana</span><br><span
+                        class="text">27735908<br>72231101875143</span></td>
+                <td class="table__cell" data-th="Сумма и оплата:"><span class="text text__weight--medium text__bgcolor--yellow text__size--small">115
+                        300 <span class="text text__tenge">₸</span></span><br><span class="text text__light--two text__size--small">Ожидает
+                        оплаты
+                    </span></td>
+                <td class="table__cell" data-th="Статус:"><span class="text text__button--green">ОФОРМЛЕН</span><br><span
+                        class="text text__size--small">Айтуаров А. А.</span></td>
+                <td class="table__cell">
+                    <div class="button button_icon--simple button_icon--border"><svg class="svg-icon"><use xlink:href='/assets/img/sprite.svg#icon-table-copy'></use></svg></div>
+                    <div class="button button_icon--simple button_icon--border"><svg class="svg-icon"><use xlink:href='/assets/img/sprite.svg#icon-table-copy'></use></svg></div>
+                    <div class="button button_icon--simple button_icon--border"><svg class="svg-icon"><use xlink:href='/assets/img/sprite.svg#icon-mail'></use></svg></div>
+                    <div class="button button_icon--simple"><svg class="icon-more-table" style="height:4px;"><use xlink:href='/assets/img/sprite.svg#icon-more-table'></use></svg></div>
+                </td>
+            </tr>
         </table>
     </article>
 </body>

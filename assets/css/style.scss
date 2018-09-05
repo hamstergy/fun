@@ -80,6 +80,38 @@ $breakpoint-beta: 1080px; // adjust to your needs
 
 @import "https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700&subset=cyrillic";
 
+
+.circle {
+  width: 14px;
+  height: 14px;
+  background: #d5d7de;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle--active {
+  background: #466dff;
+}
+.button__icon {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  background-color: #ffffff;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+  color: #395BD3;
+}
+.button__icon--simple svg {
+  max-width: 18px;
+  max-height: 18px;
+}
+.button__icon--border {
+  border-radius: 5px;
+  border: solid 1px #e1e5e6;
+}
+
+
 body {
   padding: 0 2em;
   font-family: "Fira Sans", sans-serif;
@@ -115,80 +147,4 @@ h1 {
       padding: 1em !important;
     }
   }
-}
-
-.text {
-  font-size: 14px;
-  line-height: 1.43;
-}
-.text__weight--medium {
-  font-weight: 500;
-}
-.text__weight--bold {
-  font-weight: bold;
-}
-.text__size--small {
-  font-size: 13px;
-  line-height: 1.43;
-}
-.text__light--one {
-  color: #666666;
-}
-.text__light--two {
-  color: #b3b3b3;
-}
-.text__border {
-  border-bottom: 1px solid  rgba(48, 82, 208, 0.2);
-}
-.text__bgcolor--yellow {
-  background-color: #fedc94;
-  padding: 4px;
-}
-.text__bgcolor--blue {
-  background-color: #eaedfa;
-  padding: 4px;
-}
-.text__bgcolor--green {
-  background-color: #d1ff8c;
-  padding: 4px;
-}
-.text__tenge {
-  font-family: HelveticaNeue;
-  font-size: 11px;
-}
-.text__button--green {
-  border-radius: 3px;
-  background-color: #65b53e;
-  color:white;
-  font-size: 11px;
-  padding: 3px;
-}
-.circle {
-  width: 14px;
-  height: 14px;
-  background: #d5d7de;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-}
-.circle--active {
-  background: #466dff;
-}
-.button_icon--simple {
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
-  background-color: #ffffff;
-  display:table-cell;
-  vertical-align:middle;
-  text-align:center;
-  color: #395BD3;
-}
-.button_icon--simple svg {
-  max-width: 18px;
-  max-height: 18px;
-}
-.button_icon--border {
-  border-radius: 5px;
-  border: solid 1px #e1e5e6;
 }
