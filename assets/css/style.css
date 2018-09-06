@@ -174,12 +174,7 @@
 }
 
 body {
-  padding: 0 2em;
-  font-family: "Fira Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  color: #4d4d4d;
-  background: #eee;
+  margin: 0;
 }
 
 a {
@@ -197,6 +192,10 @@ h1 {
   background: #fff;
   color: #4d4d4d;
   overflow: hidden;
+  clear: both;
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
 }
 .table .table__row {
   border-color: #46637f;
